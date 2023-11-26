@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>sign up form</title>
+</head>
+
+<body>
+<div>
+<form style="font size:20px; text-align:center" id="form">
+
+    <h1 style="font-size:56px">SIGN UP</h1>
+    <br>
+    <br>
+    <label for="fname">NAME:</label>
+    <input type="text" id="fname" placeholder="enter full name">
+    <br>
+    <br>
+    <label for="email">EMAIL ID</label>
+    <input type="email" id="email" placeholder="enter email">
+    <br>
+    <br>
+    <button type="submit">SIGN UP</button>
+</form>
+</div>
+<script>
+     let form=document.getElementById("form");
+    form.addEventListener("submit",(e)=>
+    {
+    alert("signed up");
+});
+console.log("signed up");
+</script>
+</body>
+</html>
